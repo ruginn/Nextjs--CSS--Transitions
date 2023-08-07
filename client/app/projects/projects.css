@@ -1,0 +1,77 @@
+.ipod--page{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ipod{
+    width: 240px;
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background: linear-gradient(38deg, rgba(0,0,0,1) 20%, rgba(4,4,4,1) 49%, rgb(42, 43, 43) 65%); */
+    background: linear-gradient(38deg, rgba(0,0,0,1) 35%, rgba(4,4,4,1) 50%, rgb(91, 91, 91) 65%);
+    border-radius: 18px;
+    color: white;
+}
+
+.ipod--screen{
+    background-color: whitesmoke;
+    width: 90%;
+    height: 40%;
+    margin-top: 15px;
+    border-radius: 10px;
+    color: black;
+}
+
+.ipod--selector{
+    margin-top: 23px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: rgb(70,70,70);
+    background: linear-gradient(38deg, rgba(70,70,70,1) 90%, rgba(105,105,105,1) 22%, rgba(45,46,47,1) 81%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ipod--selector--top> p{
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.ipod--selector--middle{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+}
+
+.ipod--selector--middle > svg{
+    fill: white;
+    width: 12px;
+    margin: 10px;
+}
+
+.ipod--selector--circle{
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(38deg, rgba(0,0,0,1) 35%, rgba(4,4,4,1) 50%, rgb(34, 34, 34) 65%);
+    border-radius: 50%;
+    margin-bottom: 8px;
+}
+
+.ipod--selector--bottom{
+    display: flex;
+    flex-direction: row;
+}
+.ipod--selector--bottom > svg{
+    fill: white;
+    width: 12px;
+    margin-bottom: 10px;
+}
